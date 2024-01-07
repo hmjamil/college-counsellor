@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Query Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #upload-form {
+            margin-bottom: 20px;
+        }
+        #result-container {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDF Query Platform</h1>
+
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf" required>
+        <input type="text" id="query" name="query" placeholder="Enter your query" required>
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="result-container">
+        <h2>Result</h2>
+        <p id="result"></p>
+        <p id="conversation-result"></p>
+    </div>
+
+    <script>
+        function submitForm() {
+            const form = document.getElementById('upload-form');
+            const formData = new FormData(form);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                const query = document.getElementById('query').value;
+
+                fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        file_path: data.file_path,
+                    }),
+                })
+                .then(response => response.json())
+                .then(result => {
+                    displayResult(result.result, result.conversation_result);
+                })
+                .catch(error => console.error('Error:', error));
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function displayResult(result, conversationResult) {
+            const resultContainer = document.getElementById('result-container');
+            const resultElement = document.getElementById('result');
+            const conversationResultElement = document.getElementById('conversation-result');
+
+            resultElement.innerHTML = 'Answer: ' + parseJSONToHTML(result);
+            // conversationResultElement.textContent = 'Conversation Result: ' + conversationResult;
+
+            resultContainer.style.display = 'block';
+        }
+
+        function parseJSONToHTML(data) {
+        let html = '<ul>';
+        for (const key in data) {
+            if (data.hasOwnProperty(key)) {
+                html += `<li><strong>${key}:</strong> ${data[key]}</li>`;
+            }
+        }
+        html += '</ul>';
+        return html;
+    }
+    </script>
+</body>
+</html>
