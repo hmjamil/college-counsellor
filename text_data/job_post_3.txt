@@ -1,0 +1,26 @@
+Name: Dr. Tomonari Furukawa
+University: University of Virginia
+3-4 Graduate Research Assistant (GRA) positions are urgently available for Ph.D study starting Fall 2023 at University of Virginia (known as UVA), USA due to the start of new projects. The following are the research areas the projects are associated with:
+
+1. Humanoid robot design and control
+2. IMU-based humanoid motion tracking
+3. Cooperative mapping and localization
+4. Robot vision based on photometric stereo
+5. Marine robotics
+
+Graduate students having strength in theory of probabilistic robotics (including SLAM), perception, humanoid robotics, robot dynamics/control and mechatronics are particularly pursued.
+
+The recent robotics research focus of VICTOR Lab directed by Prof. Tomonari Furukawa is on state estimation and autonomous control for mission-capable robots in disaster response and mixed-initiative HRI. Prof. Furukawa also led teams for worldly renowned international robotics challenges including DARPA Robotics Challenge (DRC) and Mohamed Bin Zayed International Challenge (MBZIRC). VICTOR Lab has a wide range of autonomous robots and vehicles in the 2,000sqm lab space including a 10m-height 15m-diameter indoor drone testing facility, and graduate students, undergraduate research students and capstone teams are joyfully working in the lab. Over 50 students completed their Ph.D/MS degree under his supervision.
+
+Essential qualifications/skills are
+1. MS/M.Eng in the robotics-related field such as mechanical engineering, mechatronic engineering, electrical engineering, aerospace engineering and computer science;
+2. Proven record of publications in a relevant research field: At least one international journal paper or two international conference papers;
+3. Strong knowledge/experience in mechatronics/electronics or in ROS and C++/Python programming
+
+Please submit Ph.D application to UVA (Deadline for Spring has passed, but you can still apply) and email your CV to Prof. Furukawa (tomonari@virginia.edu). Please describe your accomplishment/experience in at least one of the above research areas in addition to your research interests. 
+
+Tomonari Furukawa, PhD
+Professor and Zinn Faculty Scholar
+E: tomonari@virginia.edu
+Department of Mechanical and Aerospace Engineering
+University of Virginia

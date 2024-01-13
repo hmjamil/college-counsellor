@@ -58,20 +58,20 @@
                 })
                 .then(response => response.json())
                 .then(result => {
-                    displayResult(result.result, result.conversation_result);
+                    displayResult(result.source_json, result.target_json);
                 })
                 .catch(error => console.error('Error:', error));
             })
             .catch(error => console.error('Error:', error));
         }
 
-        function displayResult(result, conversationResult) {
+        function displayResult(source_json, target_json) {
             const resultContainer = document.getElementById('result-container');
             const resultElement = document.getElementById('result');
             const conversationResultElement = document.getElementById('conversation-result');
 
-            resultElement.innerHTML = 'Answer: ' + parseJSONToHTML(result);
-            // conversationResultElement.textContent = 'Conversation Result: ' + conversationResult;
+            resultElement.innerHTML = 'Your Information: ' + parseJSONToHTML(source_json);
+            conversationResultElement.innerHTML = 'Target Result: ' + parseJSONToHTML(target_json);
 
             resultContainer.style.display = 'block';
         }

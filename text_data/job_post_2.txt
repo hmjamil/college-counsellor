@@ -1,0 +1,33 @@
+Name: Dr. Di Wu
+University: University of Central Florida
+PhD positions starting from fall 2023/spring 2024 at UCF
+About Me. Di Wu is an incoming tenure-track assistant professor in the Department of ECE at
+the University of Central Florida, starting in fall 2023. He received his PhD from the Department
+of ECE at the University of Wisconsin-Madison in the USA, and his Bachelor’s and Master’s de-
+grees from Fudan University in China. His research interests are in emerging areas of computer
+architecture, such as unary, approximate, and neuromorphic computing. His work at Cerebras
+Systems has been commercialized within the Cerebras Wafer-Scale Engines for deep learning. His
+research has been published in premier conferences on computer architecture, VLSI, and EDA,
+including ISCA, HPCA, DAC, ISLPED, etc. He is a recipient of the Wisconsin Distinguished
+Graduate Fellowship 2022, and his research was selected as a Qualcomm Innovation Fellowship
+Finalist in 2019 and awarded as an IEEE Micro Top Pick in 2021. He has also been recognized
+with the Gerald Holdridge Outstanding Teaching Assistant Award from the Department of ECE
+at the University of Wisconsin-Madison and nominated for the campus-wide Capstone PhD
+Teaching Award by the department. He has mentored two undergraduate/graduate students,
+who published in ISCA and later started PhD study at Yale University and the University of
+Wisconsin-Madison. His full CV can be accessed at www.diwu-research.com.
+About Position. Di is now hiring two PhD students, with anticipated start dates of fall 2023
+for domestic students and spring 2024 for international students. Potential research topics in-
+clude domain-specific acceleration and cross-domain design methodology for emerging ap-
+plications, e.g., large language models, quantum error correction, brain-computer interfaces,
+robotics, AR/VR, and beyond. Di expects a research style driven by interest, which he be-
+lieves is the strongest motivation for conducting research. If you are interested, please contact Di
+with your latest CV at di.wu@ece.wisc.edu.
+About Orlando. Here is a bit more information about Orlando, where the University of Central
+Florida is located. Orlando is situated in the center of Florida and has a yearly temperature
+between 13 and 33 degrees Celsius. The city is famous for its world-renowned theme parks,
+including Walt Disney World, Universal Studios, and SeaWorld, as in the picture below. It also
+boasts natural beauty, with crystal-clear springs, picturesque lakes, and scenic parks and nature
+reserves. Outdoor enthusiasts can enjoy a variety of activities, such as hiking, biking, kayaking,
+fishing, and golf. Additionally, Orlando is home to the 7th largest international airport in the
+USA, making it convenient to connect with the rest of the world.
